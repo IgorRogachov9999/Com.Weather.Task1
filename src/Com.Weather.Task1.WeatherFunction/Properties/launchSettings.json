@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Com.Weather.Task1.WeatherFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7009"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31285,
+      "useSSL": false
+    }
+  }
+}
